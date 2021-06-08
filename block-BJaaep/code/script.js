@@ -9,11 +9,11 @@ numbers.forEach((elem, index) => {
     });
 });
 
-var secondBox = document.querySelector('.numbers');
-secondBox.addEventListener('click', (event)=> {
+var secondBox = document.querySelector('.second' );
+secondBox.addEventListener('click', (event) => {
     let text = event.target.dataset.text;
     event.target.innerText = text;
-    setTimeout(()=> {
+    setTimeout(() => {
         event.target.innerText = "";
     },5000)
 })
