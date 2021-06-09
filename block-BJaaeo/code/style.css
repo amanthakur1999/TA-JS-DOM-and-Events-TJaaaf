@@ -1,0 +1,51 @@
+
+
+body{
+    font-family: 'Dancing Script', cursive;
+}
+h1{
+    text-align: center;
+}
+td{
+    border: 1px solid rgba(128, 128, 128, 0.582);
+    padding: 10px;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    font-size: 1.8rem;
+    font-weight: 900;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.operation{
+    color: white;
+    background-color: rgb(194, 12, 94);
+    border-radius: 1rem;
+}
+.equal{
+    border-radius: 1rem;
+    font-weight: 900;
+    background-color: rgb(40, 151, 36);
+}
+
+ .input{
+    height: 40px;
+    margin-bottom: 2rems;
+    border-radius: 1rem;
+    text-align: right;
+    color: white;
+    
+}
+table{
+    margin: auto;
+    margin-top: 0.5rem;
+}
+.clear{
+    background: rgb(168, 22, 22);
+}
+.display{
+    text-align: right;
+    background-color: black;
+    color: white;
+}
