@@ -91,3 +91,34 @@ input[type='text'] {
 .terms {
   display: inline-block;
 }
+.main-div{
+  position: absolute;
+  top: 0;
+  background-color: rgba(24, 23, 22);
+  padding: 2rem 10rem; 
+  line-height: 3;
+  left: 30%;
+  transition: all 0.5s ease;
+  animation: box 0.5s linear ;
+  z-index: 999;
+  color: white;
+}
+@keyframes box {
+  from{
+    opacity: 0%;
+  }to{
+    opacity: 100%;
+  }
+}
+h2{
+  color:white;
+}
+.icon{
+  position: absolute;
+  right: 3rem;
+}
+.cross{
+  position: absolute;
+  right: 100px;
+  top: 20px;
+}
