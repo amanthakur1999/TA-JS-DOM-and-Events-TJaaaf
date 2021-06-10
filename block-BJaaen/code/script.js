@@ -23,7 +23,7 @@ let count = 0
 
 let userSelected = {}, computerSelected = {};
 function getWinner(user,computer){
-   
+    
     if(user.name === computer.name){
         result.innerHTML = "Tie"
        
