@@ -23,8 +23,8 @@ function handleSubmit(event) {
     }
     
     let userEmail =form.elements.email;
-    if(userEmail.value === email){
-        UserEmailError =`You can't use number in the name field`
+    if(userEmail.value.includes("@")){
+        UserEmailError =`Email must contain the symbol @`
     }
 
     let userPassword =form.elements.Password;
